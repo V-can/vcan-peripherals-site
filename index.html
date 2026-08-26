@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>V-CAN Peripherals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1c2321;
+    --paper:#f6f4ee;
+    --line:#d9d3c4;
+    --accent:#2f5233;
+    --accent-soft:#e7ece4;
+    --muted:#5c6560;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'DM Sans', sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.6;
+  }
+  header{
+    padding:64px 24px 40px;
+    max-width:860px;
+    margin:0 auto;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    font-family:'DM Sans', sans-serif;
+    font-weight:600;
+    font-size:13px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 14px;
+  }
+  h1{
+    font-size:clamp(32px,5vw,48px);
+    margin:0 0 8px;
+    font-weight:400;
+    letter-spacing:-0.01em;
+  }
+  .tagline{
+    font-size:18px;
+    color:var(--muted);
+    margin:0;
+    max-width:520px;
+  }
+  main{
+    max-width:860px;
+    margin:0 auto;
+    padding:48px 24px 80px;
+  }
+  section{
+    margin-bottom:48px;
+  }
+  h2{
+    font-family:'DM Sans', sans-serif;
+    font-weight:600;
+    font-size:13px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 18px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--line);
+  }
+  p{
+    margin:0 0 14px;
+    max-width:640px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+  }
+  @media (max-width:600px){
+    .grid{grid-template-columns:1fr;}
+  }
+  .card{
+    background:var(--accent-soft);
+    border:1px solid var(--line);
+    padding:20px 22px;
+  }
+  .card .label{
+    font-family:'DM Sans', sans-serif;
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:6px;
+  }
+  .card .value{
+    font-size:16px;
+  }
+  ul{
+    padding-left:20px;
+    margin:0 0 14px;
+  }
+  li{margin-bottom:6px;}
+  .contact-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+  }
+  .contact-list li{
+    display:flex;
+    gap:10px;
+    padding:10px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .contact-list li:last-child{border-bottom:none;}
+  .contact-list .k{
+    font-family:'DM Sans', sans-serif;
+    font-weight:600;
+    font-size:12px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--muted);
+    min-width:110px;
+  }
+  footer{
+    max-width:860px;
+    margin:0 auto;
+    padding:24px;
+    border-top:1px solid var(--line);
+    font-size:13px;
+    color:var(--muted);
+  }
+  .gst-note{
+    font-size:13px;
+    color:var(--muted);
+    margin-top:6px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="eyebrow">Madurai, Tamil Nadu</p>
+  <h1>V-CAN Peripherals</h1>
+  <p class="tagline">Computer peripherals and hardware retail, based in Madurai.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>About</h2>
+    <p>V-CAN Peripherals is a registered proprietorship business based in Madurai, Tamil Nadu, dealing in computer peripherals and related hardware.</p>
+  </section>
+
+  <section>
+    <h2>Business Details</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="label">Proprietor</div>
+        <div class="value">Rajendran Vijayaprakash</div>
+      </div>
+      <div class="card">
+        <div class="label">Trade Name</div>
+        <div class="value">V-CAN Peripherals</div>
+      </div>
+      <div class="card">
+        <div class="label">Constitution</div>
+        <div class="value">Proprietorship</div>
+      </div>
+      <div class="card">
+        <div class="label">GSTIN</div>
+        <div class="value">33AGEPV8008R1ZQ</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Registered Address</h2>
+    <p>
+      1st Floor, Old No.1 / New No.63/58<br>
+      West 10th Street, A.A. Road<br>
+      Harveynagar Technical School<br>
+      Madurai, Tamil Nadu &mdash; 625016<br>
+      India
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li><span class="k">Email</span><span>v_canperipherals@rediffmail.com</span></li>
+      <li><span class="k">Phone</span><span>+91 99940 19525</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  &copy; <span id="year"></span> V-CAN Peripherals. GSTIN 33AGEPV8008R1ZQ.
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
